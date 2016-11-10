@@ -48,24 +48,25 @@ public class ConvertOneToOWLTest {
     }
 
 
+    /*
     @Test
     public void Gem_EX_1_test() {
 
         JacksonClassSerializer jacksonSerialiser = new JacksonClassSerializer();
-        ArrayList<Command> history = jacksonSerialiser.readSerializedCommandHistory("/Users/Michael/thm_prv/code/ConceptDiagrams/src/test/resources/serializedHistories/workspace/test.cd.hist");
+        ArrayList<Command> history = jacksonSerialiser.readSerializedCommandHistory("src/test/resources/serializedHistories/workspace/test.cd.hist");
 
         OWLOntology ontology = OWLAPIutils.makeFreshOntology("http://www.test.test");
 
         ConvertDiagramsToOWL converter = new ConvertDiagramsToOWL();
         converter.convertToOWL(history, ontology);
 
-        OWLAPIutils.writeOntology(ontology, "/Users/Michael/thm_prv/code/ConceptDiagrams/src/test/resources/serializedHistories/workspace/output.owl");
+        OWLAPIutils.writeOntology(ontology, "src/test/resources/serializedHistories/workspace/output.owl");
 
 
         assert (true);
 
 
     }
-
+    */
 
 }
