@@ -203,7 +203,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <runTarget>Application.jsp</runTarget>
+                    <runTarget>ConceptDiagrams.html</runTarget>
                 </configuration>
                 <!-- Plugin configuration. There are many available options, see
                   gwt-maven-plugin documentation at codehaus.org -->
