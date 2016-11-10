@@ -7,6 +7,8 @@ can be realised as OWL2 ontologies.
 see also:
 http://ontologyengineering.org
 
+[![Build Status](https://travis-ci.org/AidanDelaney/ConceptDiagrams.svg?branch=master)](https://travis-ci.org/AidanDelaney/ConceptDiagrams)
+
 
 Running
 -------
